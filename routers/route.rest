@@ -1,0 +1,21 @@
+GET http://localhost:9000/users/
+
+###
+
+POST http://localhost:9000/users/signup
+Content-Type: application/json
+
+{
+    "name": "Pranay",
+    "regno": "21BDS0056",
+}
+
+###
+
+POST http://localhost:9000/users/login
+Content-Type: application/json
+
+{
+    "name": "Pranay",
+    "regno": "21BDS0056",
+}
